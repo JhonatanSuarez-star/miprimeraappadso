@@ -1,16 +1,136 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera app ADSO</title>
+    <meta name="description" content="Página personal de Jhonatan Suárez, estudiante de Desarrollo de Software y Psicología.">
+    <title>Mi espacio digital | Jhonatan Suárez</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h1>Hola, soy [Tu nombre]</h1>
-    <p>Este es mi primer proyecto en GitHub.</p>
-    <button id="boton">Haz clic aquí</button>
-    <p id="mensaje"></p>
-    <script src="script.js"></script>
+
+    <div class="brillo brillo-uno"></div>
+    <div class="brillo brillo-dos"></div>
+
+    <main class="tarjeta">
+
+        <header class="encabezado">
+
+            <div class="icono">&lt;/&gt;</div>
+
+            <p class="etiqueta">✨ BIENVENIDO A MI MUNDO ✨</p>
+
+            <h1>Jhonatan David Suárez Sandon</h1>
+
+            <p class="ocupacion">Estudiante</p>
+
+            <p class="rol">
+                Aprendiz de Análisis y Desarrollo de Software
+            </p>
+
+            <div class="decoracion">💖 ✨ 💜 ✨ 💖</div>
+
+        </header>
+
+        <section class="presentacion">
+
+            <h2>¡Bienvenido a mi espacio digital!</h2>
+
+            <p>
+                ¡Hola! Soy Jhonatan, estudiante de Desarrollo de Software
+                en el SENA y también estudiante de Psicología en la UNAD.
+                Tengo 23 años y me gusta comer.
+                Me apasionan la tecnología, la creatividad y el aprendizaje.
+            </p>
+
+        </section>
+
+        <section class="habilidades">
+
+            <h2>Mis áreas de interés</h2>
+
+            <ul>
+                <li>
+                    <span class="emoji">💻</span>
+                    <span>Desarrollo web</span>
+                </li>
+
+                <li>
+                    <span class="emoji">🧠</span>
+                    <span>Psicología</span>
+                </li>
+
+                <li>
+                    <span class="emoji">💃</span>
+                    <span>Baile y arte</span>
+                </li>
+            </ul>
+
+        </section>
+
+        <div class="zona-boton">
+            <button type="button" id="botonSaludar">
+                ¡Haz clic aquí! ✨
+            </button>
+        </div>
+
+        <footer class="pie">
+            Hecho con 💖, creatividad y un poquito de brillo.
+        </footer>
+
+    </main>
+
+    <!-- VENTANA EMERGENTE PERSONALIZADA -->
+
+    <div
+        class="modal-glam"
+        id="modalGlam"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-labelledby="tituloGlam"
+        aria-describedby="mensajeGlam"
+        hidden
+    >
+
+        <div class="contenido-glam">
+
+            <button
+                type="button"
+                class="cerrar-modal"
+                id="cerrarX"
+                aria-label="Cerrar ventana"
+            >×</button>
+
+            <div class="icono-glam">💖✨👑</div>
+
+            <p class="subtitulo-modal">UN ESPACIO LLENO DE MAGIA</p>
+
+            <h2 id="tituloGlam">¡Hola, qué lindo verte!</h2>
+
+            <p id="mensajeGlam">
+                Bienvenido a mi espacio digital.
+                Aquí se mezclan el código, la creatividad,
+                la psicología y un poquito de brillo.
+                ¡Nunca dejes de ser tú! 💅
+            </p>
+
+            <button
+                type="button"
+                class="boton-cerrar"
+                id="botonMeEncanta"
+            >
+                ¡Me encanta! 💗
+            </button>
+
+            <div class="decoracion-modal">✧･ﾟ: *✧･ﾟ:* 💜 *:･ﾟ✧*:･ﾟ✧</div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
